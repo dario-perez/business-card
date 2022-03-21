@@ -1,0 +1,155 @@
+/* ______________________________________________________________________globalStyles */
+
+/* ______________________________________________________________________typography */
+
+.website {
+  color: #f5f5f5;
+  outline: none;
+  text-decoration: none;
+}
+
+.info > h1 {
+  margin-top: 16px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+.info > h4 {
+  margin-top: 4px;
+  color: #f3bf99;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+
+.info > a {
+  margin: 8px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+
+.about > p,
+.interests > p {
+  font-size: 11px;
+  color: #dcdcdc;
+  line-height: 150%;
+}
+
+/* ______________________________________________________________________layout */
+
+.container {
+  width: 550px;
+  height: 868px;
+  background-color: #23252c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info,
+.about,
+.interests,
+footer {
+  width: 317px;
+  color: #f5f5f5;
+  background-color: #1a1b21;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+}
+
+.about {
+  width: 317px;
+  padding: 25px 34px 15px 34px;
+}
+
+.interests {
+  width: 317px;
+  padding: 0px 34px 30px 34px;
+}
+
+footer {
+  width: 317px;
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > button {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px;
+}
+
+/* ______________________________________________________________________components */
+
+/* _____________________________________________________________buttons */
+
+.contact > button {
+  width: 115px;
+  height: 34px;
+  margin: 5px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+}
+
+.contact-btns {
+  width: 16px;
+  height: 16px;
+  margin: 0px 8px;
+}
+
+.email,
+.linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin {
+  color: #f5f5f5;
+  background-color: #5093e2;
+}
+
+footer > button {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  background-color: #918e9b;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* _____________________________________________________________images */
+
+.profile {
+  width: 317px;
+  height: 317px;
+}
